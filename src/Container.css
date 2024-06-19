@@ -1,0 +1,53 @@
+*{
+   box-sizing: border-box;   
+   padding:0px;
+   margin:0px;
+}
+.outer-container{
+    position:relative;
+    width:60vw;
+    height:80vh;
+    margin:auto;
+    margin-top:10vh;
+    background-color: #0B2434;
+    ;
+}
+.inner-container{
+    position:absolute;
+    background: #F5F5F5;
+    height:70vh;
+    width:50vw;
+    top:5vh;
+    left:5vw;
+}
+.column-container{
+    position: absolute;
+    width:50vw;
+    top:28vh;
+    display:flex;
+    flex-direction:column;
+}
+.row-container{
+    display:flex;
+    justify-content: space-around;
+}
+.roll{
+    position:absolute;
+    top:50vh;
+    left:20vw;
+    height:6vh;
+    width:12vw;
+    font-weight: bold;
+    background: #5035FF;
+    color: white;
+}
+.game-head{
+     text-align: center;
+     margin-top:5vh;
+     margin-bottom:1vh;
+}
+.instructions{
+    text-align: center;
+    width:40vw;
+    margin-left:5vw;
+}
